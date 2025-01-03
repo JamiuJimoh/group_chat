@@ -19,11 +19,11 @@ $ go run .
 
 ![App flow](./flow.png)
 
-### Server
+## Server
 The application code starts from main.go.
 The application defines four types; the `Handler`, `Client`, `Group`, `GroupsManager`. An handler is created with one instance of a `GroupsManager`. The manager's Run method is called in a goroutine. This is the only place the manager's Run method is called, as we have only one instance of a manager. The goroutine runs for the entirety of the application.
 
-### Handler
+## Handler
 The code for the `Handler` type is in handler.go
 
 The handler holds a reference to a `GroupsManager`. 
