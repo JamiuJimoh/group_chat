@@ -1,6 +1,6 @@
 # Group Chat
 
-This is an implementation of chat app with [websocket](https://pkg.go.dev/github.com/gorilla/websocket) in **Go** programming language.
+This is an implementation of a chat app with [websocket](https://pkg.go.dev/github.com/gorilla/websocket) in **Go** programming language.
 
 ### Client Test
 [![Client test](https://img.youtube.com/vi/Mu-GBy0S4do/0.jpg)](https://www.youtube.com/watch?v=Mu-GBy0S4do)
